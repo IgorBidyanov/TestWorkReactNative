@@ -27,7 +27,7 @@ const MainScreen: React.FC<StackNavigationProps<ScreenRoutes.MainScreen>> = ({ n
 
   return (
     <Container>
-      <TouchableOpacity onPress={goToAuthscreen} style={styles.button}>
+      <TouchableOpacity onPress={handleLogout} style={styles.button}>
         <Text>Выйти из приложения</Text>
       </TouchableOpacity>
 
